@@ -1,0 +1,31 @@
+ACİL İŞLEM REHBERİ — v1.1
+GitHub Pages için hazır statik dosyalar
+
+KURULUM
+1. ZIP dosyasını bilgisayarınızda çıkarın.
+2. İçindeki tüm dosyaları (.nojekyll dahil) GitHub deponuzun ana dizinine yükleyin. index.html ana dizinde bulunmalıdır.
+3. Deponuzun GitHub Pages yayın ayarlarında bu dosyaların bulunduğu dalı ve ana dizini seçin.
+
+Node.js, npm, derleme, sunucu veya veritabanı gerekmez.
+Kendi hostinginizde de aynı dosyalarla çalışır. Alt klasörde barındırılabilir.
+
+DOSYALAR
+index.html: uygulamanın başlangıç sayfası
+style.css: arayüz stilleri
+app.js: arama, filtreler ve kontrol listesi
+data.js: uygulamanın işlem ve tanı verileri
+data.json: okunabilir/eşleştirmeleri düzenlenebilir veri kopyası
+acil-islem-rehberi.html: tek dosyalı çevrimdışı sürüm
+.nojekyll: statik dosyaların doğrudan yayımlanması için
+
+VERİLER
+123 işlem, 98 tanı/tanı grubu. Yeni ekin Kategori 8 bölümündeki 58 işlemin tamamı işaretlidir.
+Puanlar ve koşullar yüklenen Genel Tıbbi İşlemler Listesi'nden; Kategori 8 üyeliği branş bazlı kategorizasyon ekinden alınmıştır.
+Tanı–işlem bağlantıları editoryal klinik hatırlatmalardır; resmî ödeme uygunluk eşleştirmesi değildir.
+Yalnız yapılan ve belgelenen işlemler seçilmelidir. İşlem satırındaki branş/ortam/gün/seans koşulları ayrıca geçerlidir.
+Bu bağımsız dosyalarda ChatGPT giriş kapısı yoktur; yayımladığınızda GitHub Pages erişim ayarlarınız uygulanır.
+Hasta bilgisi toplanmaz. Favoriler cihazda saklanır. İşlem seçimleri oturum belleğindedir.
+
+DÜZENLEME
+Uygulama veriyi data.js dosyasından okur; yalnız data.json dosyasını değiştirmek arayüzü değiştirmez.
+Tek dosyalı çevrimdışı sürüm kendi verisini içerir; diğer dosyalardaki değişiklikler bu dosyaya otomatik yansımaz.

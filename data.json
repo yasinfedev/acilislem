@@ -1,0 +1,3414 @@
+{
+  "meta": {
+    "title": "Acil İşlem Rehberi",
+    "version": "1.1",
+    "date": "2026-11-02",
+    "sourceFile": "4-genel-tibbi-islemler-listesi-excellxlsx(1).xlsx",
+    "sheet": "Değişikliklerin İşlenmiş Hali",
+    "rows": 7509,
+    "branchFile": "brans-bazli-kategorizasyonxlsx(2)(1).xlsx",
+    "branchSheet": "Sayfa1",
+    "branch8Count": 58,
+    "branch8HeaderRow": 5926,
+    "branch8LastRow": 5984,
+    "mapping": "Editoryal klinik hatırlatma; resmî ICD–işlem uygunluk listesi değildir.",
+    "ministryUrl": "https://erisilebilir.saglik.gov.tr/TR-119287/genel-tibbi-islemler-yonergesi-ve-ekleri-ile-ozellikli-tibbi-islemler-yonergesi-ve-eki-degisikligi.html",
+    "whoUrl": "https://icd.who.int/browse10/2019/en",
+    "limitations": "Kaynak dosyadaki ham puanlar gösterilir. Kategori 8 üyeliği branş bazlı kategorizasyon ekinden alınmıştır; bu listede olmak satırdaki uygulayıcı/ortam koşulunu kaldırmaz, listede bulunmamak tek başına yetkisizlik veya ödeme yasağı göstermez. Tahakkuk, üst başlık kuralları ve genel yönerge ayrıca değerlendirilir. Türkiye SKRS/HBYS tanı sözlüğüyle birebir doğrulama yapılmamıştır."
+  },
+  "procedures": [
+    {
+      "code": "520009",
+      "name": "Muayene Ek Puanı (65 yaş üstü)",
+      "points": 8,
+      "note": "520.010, 520.012, 520.013, 520.014, 520.032, 520.036, kodlu işlemler hariç, ilgili muayene puanına eklenerek uygulanır.",
+      "category": "Muayene ve temel bakım",
+      "row": 609,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "520021",
+      "name": "Acil Poliklinik Yeşil alan muayenesi",
+      "points": 26,
+      "note": "Tabip ve ana/yan dal uzman tabiplerin (Çocuk acil yandal uzmanı hariç)  Yeşil acil poliklinik muayenesi bu kod üzerinden puanlandırılır. İlgili dönemde  ilgili sağlık tesisinin acil muayene oranının eşik-1 ile eşik-2 arasında olması hâlinde, ilgili acil serviste çalışan hekimlerin bu işlemden elde ettiği toplam işlem puanı %12,5 oranında; eşik-2’ye eşit veya üzerinde olması hâlinde ise %25 oranında azaltılır.\nEşik-1 ve eşik-2 oranları Bakanlıkça sağlık tesisi, il ve bölge bazında dönemsel olarak belirlenir.",
+      "category": "Muayene ve temel bakım",
+      "row": 614,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "520022",
+      "name": "Acil Poliklinik Sarı alan muayenesi",
+      "points": 26,
+      "note": "Tabip ve ana/yan dal uzman tabiplerin (Çocuk acil yandal uzmanı hariç)  Sarı acil poliklinik muayenesi bu kod üzerinden puanlandırılır. İlgili dönemde  ilgili sağlık tesisinin acil muayene oranının eşik-1 ile eşik-2 arasında olması hâlinde, ilgili acil serviste çalışan hekimlerin bu işlemden elde ettiği toplam işlem puanı %12,5 oranında; eşik-2’ye eşit veya üzerinde olması hâlinde ise %25 oranında azaltılır.\nEşik-1 ve eşik-2 oranları Bakanlıkça sağlık tesisi, il ve bölge bazında dönemsel olarak belirlenir.",
+      "category": "Muayene ve temel bakım",
+      "row": 615,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "520023",
+      "name": "Acil Poliklinik Kırmızı alan muayenesi",
+      "points": 38,
+      "note": "Tabip ve ana/yan dal uzman tabiplerin (Çocuk acil yandal uzmanı hariç)  Kırmızı   acil poliklinik muayenesi bu kod üzerinden puanlandırılır.",
+      "category": "Muayene ve temel bakım",
+      "row": 616,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530001",
+      "name": "FAST ultrasonografi(çoklu travma hastasında)",
+      "points": 27,
+      "note": "Hasta başında acil tıp  veya radyoloji uzman hekimi tarafından yapılması halinde ve Hastane bilgi yönetim sistemine veya hasta dosyasına kaydedilmesi durumunda puanlandırılır.",
+      "category": "Yatak başı ultrason",
+      "row": 643,
+      "group": null,
+      "context": "",
+      "reminder": "Yalnız çoklu travmada yapılan FAST; pencereler ve bulgular HBYS/hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5927,
+        "name": "FAST ultrasonografi(çoklu travma hastasında)",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530002",
+      "name": "Transkutan pacemaker uygulaması",
+      "points": 50,
+      "note": "Acil tıp veya kardiyoloji uzman hekimi tarafından yapılması halinde puanlandırılır.",
+      "category": "Resüsitasyon ve havayolu",
+      "row": 644,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5928,
+        "name": "Transkutan pacemaker uygulaması",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530003",
+      "name": "Toksidromlarda spesifik antidot uygulaması",
+      "points": 50,
+      "note": "Acil tıp  uzman hekimi veya yoğun bakım şartlarında takip eden branş uzmanı  tarafından yapılması halinde puanlandırılır. Aktif kömür uygulaması bu kapsamda değerlendirilemez.  Günde 1 kez puanladırılır",
+      "category": "Toksikoloji",
+      "row": 645,
+      "group": null,
+      "context": "",
+      "reminder": "Antidotun adı, endikasyonu, dozu, uygulama yolu ve saati kaydedilmeli. Aktif kömür bu işlem değildir.",
+      "conditional": false,
+      "branch8": {
+        "row": 5929,
+        "name": "Toksidromlarda spesifik antidot uygulaması",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530004",
+      "name": "Kimyasal, biyolojik. Radyasyon ve nükleer yaralanmalarda hasta muayene ve dekontaminasyonu",
+      "points": 26,
+      "note": "Acil tıp  uzman hekimi tarafından yapılması halinde puanlandırılır. 520.021, 520.022, 520.023 ile beraber puanlandırılmaz.",
+      "category": "Toksikoloji",
+      "row": 646,
+      "group": null,
+      "context": "",
+      "reminder": "KBRN muayene/dekontaminasyonu; olağan zehirlenme muayenesi veya yalnız aktif kömür uygulaması bu işlem değildir.",
+      "conditional": false,
+      "branch8": {
+        "row": 5930,
+        "name": "Kimyasal, biyolojik. Radyasyon ve nükleer yaralanmalarda hasta muayene ve dekontaminasyonu",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530030",
+      "name": "Apse veya hematom drenajı, Deri ve subkutan dokular",
+      "points": 23,
+      "note": "Başka kod altında özel olarak belirtilmemiş ise bu kod ile puanlandırılır.",
+      "category": "Yara ve yanık",
+      "row": 649,
+      "group": "E",
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530080",
+      "name": "Damar yolu açılması",
+      "points": 0,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 655,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530085",
+      "name": "İntraosseoz infüzyon uygulaması",
+      "points": 25,
+      "note": "",
+      "category": "Resüsitasyon ve havayolu",
+      "row": 656,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5931,
+        "name": "İntraosseoz infüzyon uygulaması",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530100",
+      "name": "Elektrokardiyogram",
+      "points": 0,
+      "note": "12 derivasyonlu, EKG trase çekimi",
+      "category": "Muayene ve temel bakım",
+      "row": 659,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530130",
+      "name": "Hastanın mekanik ventilatöre bağlanması",
+      "points": 50,
+      "note": "530.800, 550.030, 608.500, 608.510 kodlu işlemlerden en az biri ile birlikte puanlandırılır. Tek başına puanlandırılmaz.",
+      "category": "Resüsitasyon ve havayolu",
+      "row": 662,
+      "group": null,
+      "context": "",
+      "reminder": "Ventilatöre bağlama tek başına puanlandırılmaz; kaynakta belirtilen eşlik eden havayolu işlemi gerekir.",
+      "conditional": false,
+      "branch8": {
+        "row": 5932,
+        "name": "Hastanın mekanik ventilatöre bağlanması",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530140",
+      "name": "İntramusküler enjeksiyon",
+      "points": 0,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 663,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530150",
+      "name": "İntravenöz enjeksiyon",
+      "points": 0,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 664,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530160",
+      "name": "İntravenöz ilaç infüzyonu",
+      "points": 0,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 665,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530180",
+      "name": "Kan veya kan bileşenleri transfüzyonu",
+      "points": 0,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 667,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530190",
+      "name": "Kesi sütürasyonu, büyük",
+      "points": 80,
+      "note": "10 cm'den büyük veya bir çok alanda. Bir kez puanlandırılır. 530.200 ve 530.210 ile birlikte puanlandırılmaz. Kesi boyut ve sayı bilgisi Hastane bilgi yönetim sistemine veya hasta dosyasına kaydedildiğinde puanlandırılır.",
+      "category": "Yara ve yanık",
+      "row": 668,
+      "group": "E",
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530200",
+      "name": "Kesi sütürasyonu, küçük",
+      "points": 40,
+      "note": "5 cm'den küçük, tek bir alanda. Bir kez puanlandırılır. 530.190 ve 530.210 ile birlikte puanlandırılmaz. Kesi boyut ve sayı bilgisi Hastane bilgi yönetim sistemine veya hasta dosyasına kaydedildiğinde puanlandırılır.",
+      "category": "Yara ve yanık",
+      "row": 669,
+      "group": "E",
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530210",
+      "name": "Kesi sütürasyonu, orta",
+      "points": 60,
+      "note": "5-10 cm arası, tek bir alanda. Bir kez puanlandırılır. 530.190 ve 530.200 ile birlikte puanlandırılmaz. Kesi boyut ve sayı bilgisi Hastane bilgi yönetim sistemine veya hasta dosyasına kaydedildiğinde puanlandırılır.",
+      "category": "Yara ve yanık",
+      "row": 670,
+      "group": "E",
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530220",
+      "name": "Kist ponksiyonu",
+      "points": 19,
+      "note": "Tek başına puanlandırılır. Diğer cerrahi ve biyopsi işlemleri ile birlikte puanlandırılmaz.",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 671,
+      "group": null,
+      "context": "",
+      "reminder": "Kist ponksiyonu tek başına puanlandırılır. Aynı uygulamadaki diğer cerrahi/biyopsi kodlarıyla kaynak koşulunu kontrol edin.",
+      "conditional": false,
+      "branch8": {
+        "row": 5933,
+        "name": "Kist ponksiyonu",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": "Kist ponksiyonu tek başına puanlandırılır. Aynı uygulamadaki diğer cerrahi/biyopsi kodlarıyla kaynak koşulunu kontrol edin."
+    },
+    {
+      "code": "530260",
+      "name": "Lavman",
+      "points": 0,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 676,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530290",
+      "name": "Lokal anestezi",
+      "points": 0,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 679,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530300",
+      "name": "Lomber ponksiyon",
+      "points": 60,
+      "note": "Pansuman dahil",
+      "category": "Girişim ve drenaj",
+      "row": 680,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5934,
+        "name": "Lomber ponksiyon",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530310",
+      "name": "Mesane sonda uygulaması",
+      "points": 10,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 682,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530320",
+      "name": "Mide yıkama",
+      "points": 30,
+      "note": "530.340 ile birlikte puanlandırılmaz.",
+      "category": "Toksikoloji",
+      "row": 683,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5935,
+        "name": "Mide yıkama",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530330",
+      "name": "Monitorizasyon",
+      "points": 0,
+      "note": "Günlük",
+      "category": "Muayene ve temel bakım",
+      "row": 684,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530340",
+      "name": "Nazogastrik sonda uygulaması",
+      "points": 15,
+      "note": "Diğer girişimlerde yapılan nazogastrik uygulamalar o işlemin bir parçası olarak kabul görür ve ayrıca bu kod üzerinden puanlandırılmaz. Günde bir kez puanlandırılır. 530.320 ile birlikte puanlandırılmaz.",
+      "category": "Toksikoloji",
+      "row": 685,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530350",
+      "name": "Nebülizatör ile ilaç uygulaması",
+      "points": 0,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 686,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530360",
+      "name": "Oksijen inhalasyon tedavisi, saatlik",
+      "points": 0,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 687,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530380",
+      "name": "Parasentez, tanısal",
+      "points": 50,
+      "note": "Aynı gün içinde 530.381,803.290 ve 803.291 ile birlikte puanlandırılmaz. Günde bir kez puanlandırılır.",
+      "category": "Girişim ve drenaj",
+      "row": 689,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5936,
+        "name": "Parasentez, tanısal",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530381",
+      "name": "Parasentez, terapötik",
+      "points": 60,
+      "note": "Aynı gün içinde 530.380, 803.291 ve 803.293 ile birlikte puanlandırılmaz. Günde bir kez puanlandırılır.",
+      "category": "Girişim ve drenaj",
+      "row": 690,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5937,
+        "name": "Parasentez, terapötik",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530390",
+      "name": "Subkutan enjeksiyon",
+      "points": 0,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 691,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530410",
+      "name": "Sütür alınması",
+      "points": 0,
+      "note": "",
+      "category": "Muayene ve temel bakım",
+      "row": 692,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530420",
+      "name": "Torasentez, tanısal",
+      "points": 60,
+      "note": "Aynı gün içinde 530.421, 701.190, 803.292 ve 803.293 ile birlikte puanlandırılmaz. Günde bir kez puanlandırılır.",
+      "category": "Girişim ve drenaj",
+      "row": 693,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5938,
+        "name": "Torasentez, tanısal",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530421",
+      "name": "Torasentez, terapötik",
+      "points": 90,
+      "note": "Aynı gün içinde 530.420, 701.190 ve 803.293 ile birlikte puanlandırılmaz. Günde bir kez puanlandırılır.",
+      "category": "Girişim ve drenaj",
+      "row": 694,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5939,
+        "name": "Torasentez, terapötik",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530490",
+      "name": "Ventilatör ile takip",
+      "points": 10,
+      "note": "Sekiz saatte bir kez puanlandırılır.",
+      "category": "Resüsitasyon ve havayolu",
+      "row": 698,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5940,
+        "name": "Ventilatör ile takip",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530500",
+      "name": "Yanık debridmanı, büyük",
+      "points": 200,
+      "note": "%30’dan büyük vücut yüzey alanında. Pansuman dahil. İki günde bir kez puanlandırılır. 530.510, 530.520 ve 530.533 ile birlikte puanlandırılmaz.Yanık tedavi merkezinde veya yanık ünitesinde yapılması halinde işlem puanı %30 artırılır.",
+      "category": "Yara ve yanık",
+      "row": 699,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530510",
+      "name": "Yanık debridmanı, küçük",
+      "points": 64,
+      "note": "%10'dan küçük vücut yüzey alanında. Pansuman dahil. İki günde bir kez puanlandırılır. 530.500, 530.520 ve 530.533 ile birlikte puanlandırılmaz.Yanık tedavi merkezinde veya yanık ünitesinde yapılması halinde işlem puanı %30 artırılır.",
+      "category": "Yara ve yanık",
+      "row": 700,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530520",
+      "name": "Yanık debridmanı, orta",
+      "points": 107,
+      "note": "%10-30 arası vücut yüzey alanında. Pansuman dahil. İki günde bir kez puanlandırılır. 530.500, 530.510 ve 530.533 ile birlikte puanlandırılmaz. Yanık tedavi merkezinde veya yanık ünitesinde yapılması halinde işlem puanı %30 artırılır.",
+      "category": "Yara ve yanık",
+      "row": 701,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530530",
+      "name": "Yanık pansumanı, küçük",
+      "points": 8,
+      "note": "%10’dan küçük vücut yüzey alanında. Günde bir bir kez puanlandırılır. 530.531, 530.532 ve 530.533 ile birlikte puanlandırılmaz.Yanık tedavi merkezinde veya yanık ünitesinde yapılması halinde işlem puanı %30 artırılır.",
+      "category": "Yara ve yanık",
+      "row": 702,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530531",
+      "name": "Yanık pansumanı, orta",
+      "points": 21,
+      "note": "%10-30 arası vücut yüzey alanında. Günde bir bir kez puanlandırılır. 530.530, 530.532 ve 530.533 ile birlikte puanlandırılmaz.Yanık tedavi merkezinde veya yanık ünitesinde yapılması halinde işlem puanı %30 artırılır.",
+      "category": "Yara ve yanık",
+      "row": 703,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530532",
+      "name": "Yanık pansumanı, büyük",
+      "points": 45,
+      "note": "%30’dan büyük vücut yüzey alanında. Günde en fazla iki kez puanlandırılır. 530.530, 530.531 ve 530.533 ile birlikte puanlandırılmaz.Yanık tedavi merkezinde veya yanık ünitesinde yapılması halinde işlem puanı %30 artırılır.",
+      "category": "Yara ve yanık",
+      "row": 704,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530560",
+      "name": "Yara debridmanı",
+      "points": 40,
+      "note": "Pansuman dahil, günde bir kez puanlandırılır. 530.533, 530.561 ile birlikte puanlandırılmaz.",
+      "category": "Yara ve yanık",
+      "row": 706,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530561",
+      "name": "Dekübit yara debridmanı",
+      "points": 40,
+      "note": "Pansuman dahil, günde bir kez puanlandırılır. 530.533, 530.560 ile birlikte puanlandırılmaz.",
+      "category": "Yara ve yanık",
+      "row": 707,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530580",
+      "name": "Yara pansumanı",
+      "points": 5,
+      "note": "Günde bir kez puanlandırılır. 530.533 ile birlikte puanlandırılmaz.",
+      "category": "Yara ve yanık",
+      "row": 709,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530581",
+      "name": "Dekübit yara pansumanı",
+      "points": 10,
+      "note": "Günde bir kez puanlandırılır. 530.533, 530.561 ile birlikte puanlandırılmaz.",
+      "category": "Yara ve yanık",
+      "row": 710,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5941,
+        "name": "Dekübit yara pansumanı",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530590",
+      "name": "Arter kateterizasyonu",
+      "points": 90,
+      "note": "4 günde bir kez puanlandırılır. 530.625, 530.690 ile birlikte puanlandırılmaz.",
+      "category": "Damar erişimi",
+      "row": 718,
+      "group": null,
+      "context": "Kaynak bölüm koşulu: Bu başlık altındaki işlemlere lokal anestezi dahildir.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5942,
+        "name": "Arter kateterizasyonu",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530690",
+      "name": "Kateter revizyonu ve/veya değişimi",
+      "points": 100,
+      "note": "14 günde bir kez puanlandırılır. Aksi takdirde tıbbi gerekçe belirtilmelidir. 530.590 ile birlikte puanlandırılmaz.",
+      "category": "Damar erişimi",
+      "row": 724,
+      "group": null,
+      "context": "Kaynak bölüm koşulu: Bu başlık altındaki işlemlere lokal anestezi dahildir.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5943,
+        "name": "Kateter revizyonu ve/veya değişimi",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530700",
+      "name": "Non invaziv mekanik ventilatör uygulaması",
+      "points": 10,
+      "note": "Günde bir kez puanlandırılır.",
+      "category": "Resüsitasyon ve havayolu",
+      "row": 725,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5944,
+        "name": "Non invaziv mekanik ventilatör uygulaması",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530740",
+      "name": "Santral ven kateterizasyonu, femoral ven, perkutan",
+      "points": 75,
+      "note": "",
+      "category": "Damar erişimi",
+      "row": 730,
+      "group": null,
+      "context": "Kaynak bölüm koşulu: Bu başlık altındaki işlemlere lokal anestezi dahildir.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5945,
+        "name": "Santral ven kateterizasyonu, femoral ven, perkutan",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530750",
+      "name": "Santral ven kateterizasyonu, juguler veya subklavyen ven, perkutan",
+      "points": 100,
+      "note": "",
+      "category": "Damar erişimi",
+      "row": 731,
+      "group": null,
+      "context": "Kaynak bölüm koşulu: Bu başlık altındaki işlemlere lokal anestezi dahildir.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5946,
+        "name": "Santral ven kateterizasyonu, juguler veya subklavyen ven, perkutan",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530760",
+      "name": "Santral ven kateterizasyonu, periferik ven, perkutan",
+      "points": 50,
+      "note": "",
+      "category": "Damar erişimi",
+      "row": 732,
+      "group": null,
+      "context": "Kaynak bölüm koşulu: Bu başlık altındaki işlemlere lokal anestezi dahildir.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5947,
+        "name": "Santral ven kateterizasyonu, periferik ven, perkutan",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530800",
+      "name": "Endotrakeal entübasyon, yenidoğan",
+      "points": 50,
+      "note": "",
+      "category": "Yenidoğan ve nakil",
+      "row": 737,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5948,
+        "name": "Endotrakeal entübasyon, yenidoğan",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Yenidoğan / çocuk",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530820",
+      "name": "Göbek arter kateterizasyonu",
+      "points": 105,
+      "note": "",
+      "category": "Yenidoğan ve nakil",
+      "row": 739,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5949,
+        "name": "Göbek arter kateterizasyonu",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Yenidoğan / çocuk",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530830",
+      "name": "Göbek granülomu koterizasyonu",
+      "points": 12,
+      "note": "",
+      "category": "Yenidoğan ve nakil",
+      "row": 740,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5950,
+        "name": "Göbek granülomu koterizasyonu",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Yenidoğan / çocuk",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530840",
+      "name": "Göbek ven kateterizasyonu",
+      "points": 105,
+      "note": "",
+      "category": "Yenidoğan ve nakil",
+      "row": 741,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5951,
+        "name": "Göbek ven kateterizasyonu",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Yenidoğan / çocuk",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530930",
+      "name": "Transport kuvözle hastane dışı nakil",
+      "points": 50,
+      "note": "",
+      "category": "Yenidoğan ve nakil",
+      "row": 748,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5952,
+        "name": "Transport kuvözle hastane dışı nakil",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Yenidoğan / çocuk",
+      "scopeWarning": ""
+    },
+    {
+      "code": "530984",
+      "name": "Yenidoğanın canlandırılması",
+      "points": 50,
+      "note": "Yenidoğana uygulanan pozitif basınçlı ventilasyon ve kalp masajı gibi işlemleri kapsar. Normal doğum veya sezaryen sonrası bebeğin ısıtılması, hava yolunun açılması, kurulama, taktil uyarı, pozisyonlama, suplemental oksijen verilmesi gibi işlemler yenidoğan canlandırılması kapsamında yer almaz.",
+      "category": "Yenidoğan ve nakil",
+      "row": 753,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5953,
+        "name": "Yenidoğanın canlandırılması",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Yenidoğan / çocuk",
+      "scopeWarning": ""
+    },
+    {
+      "code": "550030",
+      "name": "Endotrakeal entübasyon, ameliyathane dışı",
+      "points": 25,
+      "note": "Günde bir kez puanlandırılır.",
+      "category": "Resüsitasyon ve havayolu",
+      "row": 786,
+      "group": null,
+      "context": "",
+      "reminder": "Entübasyonun endikasyonu, saati, tüp bilgisi ve yerleşim doğrulaması kaydedilmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5954,
+        "name": "Endotrakeal entübasyon, ameliyathane dışı",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "550040",
+      "name": "Endotrakeal tüp yada trakeotomi kanül değişimi",
+      "points": 20,
+      "note": "Günde bir kez puanlandırılır.",
+      "category": "Resüsitasyon ve havayolu",
+      "row": 787,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5955,
+        "name": "Endotrakeal tüp yada trakeotomi kanül değişimi",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "550070",
+      "name": "Kardiyopulmoner ressüsitasyon",
+      "points": 250,
+      "note": "",
+      "category": "Resüsitasyon ve havayolu",
+      "row": 791,
+      "group": null,
+      "context": "",
+      "reminder": "Gerçek resüsitasyon süreci, başlangıç/sonlanma saatleri ve uygulamalar belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5956,
+        "name": "Kardiyopulmoner ressüsitasyon",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "550080",
+      "name": "Laringeal maske uygulaması (LMA)",
+      "points": 20,
+      "note": "",
+      "category": "Resüsitasyon ve havayolu",
+      "row": 792,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "550110",
+      "name": "Nazal entübasyon, ameliyathane dışı",
+      "points": 30,
+      "note": "",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 797,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5957,
+        "name": "Nazal entübasyon, ameliyathane dışı",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "551251",
+      "name": "Derin trakeal aspirasyon",
+      "points": 5,
+      "note": "Sekiz saatte bir kez olmak üzere günde en fazla 3 kez puanlandırılır. Anestezi uygulamaları ile birlikte puanlandırılmaz.",
+      "category": "Resüsitasyon ve havayolu",
+      "row": 960,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "551340",
+      "name": "SEDO-analjezi",
+      "points": 50,
+      "note": "Aynı gün genel anestezi ile birlikte puanlandırılmaz.Lokal ya da rejyonel anestezi altında cerrahi girişim uygulanan hastalara ve yoğun bakım dışındaki uygulamalarda tanı veya tedavi amaçlı bir girişim uygulanacak hastaların sedatize edilmesi amacıyla Anestezi uzmanınca uygulandığında puanlandırılır. Ayrıca yoğun bakım sürecinde tanı veya tedavi amaçlı bir girişim uygulanacak hastaların sedatize edilmesi amacıyla Anestezi uzmanınca veya hastayı yoğun bakımda takip eden doktoru tarafından uygulandığında  her bir hasta için günde en fazla bir kez  puanlandırılır. 550.090 ve 550.100 ile birlikte puanlandırılmaz.",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 969,
+      "group": null,
+      "context": "",
+      "reminder": "Kategori 8 listesinde var; ancak puan açıklaması yoğun bakım dışındaki uygulamalar için Anestezi uzmanını, yoğun bakımda ise Anestezi uzmanı veya hastayı takip eden doktoru belirtir. Acil serviste rutin sedasyonun bu kodla puanlandırılabildiği sonucunu çıkarmayın; kurumdan yazılı uygulama açıklaması gerekir.",
+      "conditional": true,
+      "branch8": {
+        "row": 5958,
+        "name": "SEDO-analjezi",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": "Kategori 8 listesinde var; ancak puan açıklaması yoğun bakım dışındaki uygulamalar için Anestezi uzmanını, yoğun bakımda ise Anestezi uzmanı veya hastayı takip eden doktoru belirtir. Acil serviste rutin sedasyonun bu kodla puanlandırılabildiği sonucunu çıkarmayın; kurumdan yazılı uygulama açıklaması gerekir."
+    },
+    {
+      "code": "600100",
+      "name": "Yanıkta eskarotomi",
+      "points": 100,
+      "note": "El, ön kol, üst kol, ayak, bacak, uyluk, baş, boyun, karın, genital anatomik alanları için birer kez puanlanır.  Yanık tedavi merkezinde veya yanık ünitesinde yapılması halinde işlem puanı %30 artırılır.",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 994,
+      "group": "E",
+      "context": "",
+      "reminder": "Eskarotomi yapılan anatomik alanlar ve endikasyon belgelenmeli. Yanık merkezi/ünitesi dışındaki işlemde artırımlı puan otomatik uygulanmaz.",
+      "conditional": false,
+      "branch8": {
+        "row": 5959,
+        "name": "Yanıkta eskarotomi",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "601250",
+      "name": "TME luksasyonu kapalı redüksiyon",
+      "points": 50,
+      "note": "",
+      "category": "Ortopedi",
+      "row": 1089,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "601380",
+      "name": "Burun tamponu çıkarılması",
+      "points": 10,
+      "note": "",
+      "category": "KBB",
+      "row": 1103,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "601390",
+      "name": "Burun tamponu konması, arka",
+      "points": 100,
+      "note": "601.400 ile birlikte puanlandırılmaz.",
+      "category": "KBB",
+      "row": 1104,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5960,
+        "name": "Burun tamponu konması, arka",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "601400",
+      "name": "Burun tamponu konması, ön",
+      "points": 10,
+      "note": "601.390 ile birlikte puanlandırılmaz.",
+      "category": "KBB",
+      "row": 1105,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "601410",
+      "name": "Burundan yabancı cisim çıkarılması",
+      "points": 10,
+      "note": "İşlemin tamamı için, bir kez puanlandırılır.",
+      "category": "KBB",
+      "row": 1106,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "603290",
+      "name": "Kot fraktürü tedavisi, kapalı",
+      "points": 50,
+      "note": "Her hasta için günde bir kez puanlandırılır",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 1295,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5962,
+        "name": "Kot fraktürü tedavisi, kapalı",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "604180",
+      "name": "Perikardiyosentez",
+      "points": 100,
+      "note": "",
+      "category": "Girişim ve drenaj",
+      "row": 1392,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5963,
+        "name": "Perikardiyosentez",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "608500",
+      "name": "Trakeotomi açılması, acil",
+      "points": 263,
+      "note": "",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 1654,
+      "group": "D",
+      "context": "",
+      "reminder": "Kaynak işlem adı acil trakeotomidir; krikotirotomiye otomatik eşlenmez. Bizzat yapılan işlem ve kurum yetkisi doğrulanmalı.",
+      "conditional": true,
+      "branch8": {
+        "row": 5964,
+        "name": "Trakeotomi açılması, acil",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": "Kaynak işlem adı acil trakeotomidir; krikotirotomiye otomatik eşlenmez. Bizzat yapılan işlem ve kurum yetkisi doğrulanmalı."
+    },
+    {
+      "code": "608640",
+      "name": "Kateter torakostomi, kapalı sistem uygulama",
+      "points": 158,
+      "note": "608.880 ile birlikte puanlandırılmaz.",
+      "category": "Girişim ve drenaj",
+      "row": 1659,
+      "group": "D",
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "608880",
+      "name": "Tüp torakostomi (göğüs tüpüyle sualtı drenajı), tek taraf",
+      "points": 315,
+      "note": "Torakal cerrahi işlemlerle birlikte puanlandırılmaz. 608.640 ile birlikte puanlandırılmaz.",
+      "category": "Girişim ve drenaj",
+      "row": 1670,
+      "group": "C",
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5965,
+        "name": "Tüp torakostomi (göğüs tüpüyle sualtı drenajı), tek taraf",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "608890",
+      "name": "Tüp ve katater torakostomi takibi",
+      "points": 21,
+      "note": "Günde 1 kez puanlandırılır. Pansuman dahil",
+      "category": "Girişim ve drenaj",
+      "row": 1671,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5966,
+        "name": "Tüp ve katater torakostomi takibi",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "609500",
+      "name": "Özofagial tüp veya balon uygulaması, özofagus varis kanamasında",
+      "points": 158,
+      "note": "",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 1724,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5967,
+        "name": "Özofagial tüp veya balon uygulaması, özofagus varis kanamasında",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610370",
+      "name": "Rektal tuşe ile yabancı cisim veya dışkı taşı çıkarılması",
+      "points": 50,
+      "note": "",
+      "category": "Girişim ve drenaj",
+      "row": 1795,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610670",
+      "name": "Kısa kol alçı (Dirsek altı)",
+      "points": 30,
+      "note": "",
+      "category": "Ortopedi",
+      "row": 1838,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610680",
+      "name": "Kısa kol atel (Dirsek altı)",
+      "points": 20,
+      "note": "",
+      "category": "Ortopedi",
+      "row": 1839,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610690",
+      "name": "Uzun kol alçı (Dirsek üstü)",
+      "points": 45,
+      "note": "",
+      "category": "Ortopedi",
+      "row": 1840,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610700",
+      "name": "Uzun kol atel (Dirsek üstü)",
+      "points": 25,
+      "note": "",
+      "category": "Ortopedi",
+      "row": 1841,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610710",
+      "name": "Kısa bacak alçı (Diz altı)",
+      "points": 45,
+      "note": "",
+      "category": "Ortopedi",
+      "row": 1842,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610720",
+      "name": "Kısa bacak atel (Diz altı)",
+      "points": 25,
+      "note": "",
+      "category": "Ortopedi",
+      "row": 1843,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610730",
+      "name": "Uzun bacak alçı (Diz üstü)",
+      "points": 60,
+      "note": "",
+      "category": "Ortopedi",
+      "row": 1844,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610740",
+      "name": "Uzun bacak atel (Diz üstü)",
+      "points": 45,
+      "note": "",
+      "category": "Ortopedi",
+      "row": 1845,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610750",
+      "name": "Parmak ateli (alüminyum) veya alçısı",
+      "points": 5,
+      "note": "",
+      "category": "Ortopedi",
+      "row": 1846,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610780",
+      "name": "Alçı çıkarma",
+      "points": 7,
+      "note": "Sirküler alçı çıkarma puanlandırılır. Atel hariç",
+      "category": "Ortopedi",
+      "row": 1849,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610790",
+      "name": "Sekiz bandajı, Jones bandajı",
+      "points": 32,
+      "note": "",
+      "category": "Ortopedi",
+      "row": 1850,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610800",
+      "name": "Velpeau (Kol gövde) bandajı",
+      "points": 32,
+      "note": "610.810 ile birlikte puanlandırılmaz.",
+      "category": "Ortopedi",
+      "row": 1851,
+      "group": null,
+      "context": "Kaynak sınıflaması: Omuz, dirsek, el bileği, kalça, diz ve ayak bileği büyük eklemdir; bakıcı dirseği 610.870 içinde ayrıca belirtilmiştir. Küçük kemik: metatars, metakarp, parmak; orta kemik: tarsal, karpal, klavikula, patella, fibula, koksiks, kalkaneus.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610810",
+      "name": "U ateli veya atel + velpeau",
+      "points": 62,
+      "note": "610.800 ile birlikte puanlandırılmaz.",
+      "category": "Ortopedi",
+      "row": 1852,
+      "group": null,
+      "context": "Kaynak sınıflaması: Omuz, dirsek, el bileği, kalça, diz ve ayak bileği büyük eklemdir; bakıcı dirseği 610.870 içinde ayrıca belirtilmiştir. Küçük kemik: metatars, metakarp, parmak; orta kemik: tarsal, karpal, klavikula, patella, fibula, koksiks, kalkaneus.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610860",
+      "name": "Küçük eklem çıkığı kapalı redüksiyonu",
+      "points": 40,
+      "note": "Alçı, sargı dahil. 610.640, 610.650, 610.660, 610.670, 610.690, 610.700, 610.710, 610.730, 610.750, 610.770, 610.790, 610.800 ile birlikte puanlandırılmaz.",
+      "category": "Ortopedi",
+      "row": 1859,
+      "group": null,
+      "context": "Kaynak sınıflaması: Omuz, dirsek, el bileği, kalça, diz ve ayak bileği büyük eklemdir; bakıcı dirseği 610.870 içinde ayrıca belirtilmiştir. Küçük kemik: metatars, metakarp, parmak; orta kemik: tarsal, karpal, klavikula, patella, fibula, koksiks, kalkaneus.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610870",
+      "name": "Orta eklem çıkığı kapalı redüksiyonu (Bakıcı dirseği dahil)",
+      "points": 80,
+      "note": "Alçı, sargı dahil. 610.640, 610.650, 610.660, 610.670, 610.690, 610.700, 610.710, 610.730, 610.750, 610.770, 610.790, 610.800 ile birlikte puanlandırılmaz.",
+      "category": "Ortopedi",
+      "row": 1860,
+      "group": null,
+      "context": "Kaynak sınıflaması: Omuz, dirsek, el bileği, kalça, diz ve ayak bileği büyük eklemdir; bakıcı dirseği 610.870 içinde ayrıca belirtilmiştir. Küçük kemik: metatars, metakarp, parmak; orta kemik: tarsal, karpal, klavikula, patella, fibula, koksiks, kalkaneus.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5968,
+        "name": "Orta eklem çıkığı kapalı redüksiyonu (Bakıcı dirseği dahil)",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610880",
+      "name": "Büyük eklem çıkığı kapalı redüksiyonu",
+      "points": 160,
+      "note": "Alçı, sargı dahil. 610.640, 610.650, 610.660, 610.670, 610.690, 610.700, 610.710, 610.730, 610.750, 610.770, 610.790, 610.800 ile birlikte puanlandırılmaz.",
+      "category": "Ortopedi",
+      "row": 1861,
+      "group": null,
+      "context": "Kaynak sınıflaması: Omuz, dirsek, el bileği, kalça, diz ve ayak bileği büyük eklemdir; bakıcı dirseği 610.870 içinde ayrıca belirtilmiştir. Küçük kemik: metatars, metakarp, parmak; orta kemik: tarsal, karpal, klavikula, patella, fibula, koksiks, kalkaneus.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5969,
+        "name": "Büyük eklem çıkığı kapalı redüksiyonu",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610890",
+      "name": "Küçük kemik kırığı kapalı redüksiyonu",
+      "points": 45,
+      "note": "Alçı, sargı dahil. 610.640, 610.650, 610.660, 610.670, 610.690, 610.700, 610.710, 610.730, 610.750, 610.770, 610.790, 610.800 ile birlikte puanlandırılmaz.",
+      "category": "Ortopedi",
+      "row": 1863,
+      "group": null,
+      "context": "Kaynak sınıflaması: Omuz, dirsek, el bileği, kalça, diz ve ayak bileği büyük eklemdir; bakıcı dirseği 610.870 içinde ayrıca belirtilmiştir. Küçük kemik: metatars, metakarp, parmak; orta kemik: tarsal, karpal, klavikula, patella, fibula, koksiks, kalkaneus.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610900",
+      "name": "Orta kemik kırığı kapalı redüksiyonu",
+      "points": 90,
+      "note": "Alçı, sargı dahil. 610.640, 610.650, 610.660, 610.670, 610.690, 610.700, 610.710, 610.730, 610.750, 610.770, 610.790, 610.800 ile birlikte puanlandırılmaz.",
+      "category": "Ortopedi",
+      "row": 1864,
+      "group": null,
+      "context": "Kaynak sınıflaması: Omuz, dirsek, el bileği, kalça, diz ve ayak bileği büyük eklemdir; bakıcı dirseği 610.870 içinde ayrıca belirtilmiştir. Küçük kemik: metatars, metakarp, parmak; orta kemik: tarsal, karpal, klavikula, patella, fibula, koksiks, kalkaneus.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5970,
+        "name": "Orta kemik kırığı kapalı redüksiyonu",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "610910",
+      "name": "Büyük kemik kırığı kapalı redüksiyonu",
+      "points": 180,
+      "note": "Alçı, sargı dahil. 610.640, 610.650, 610.660, 610.670, 610.690, 610.700, 610.710, 610.730, 610.750, 610.770, 610.790, 610.800 ile birlikte puanlandırılmaz.",
+      "category": "Ortopedi",
+      "row": 1865,
+      "group": null,
+      "context": "Kaynak sınıflaması: Omuz, dirsek, el bileği, kalça, diz ve ayak bileği büyük eklemdir; bakıcı dirseği 610.870 içinde ayrıca belirtilmiştir. Küçük kemik: metatars, metakarp, parmak; orta kemik: tarsal, karpal, klavikula, patella, fibula, koksiks, kalkaneus.",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5971,
+        "name": "Büyük kemik kırığı kapalı redüksiyonu",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "612060",
+      "name": "Tırnak çekilmesi, her biri",
+      "points": 68,
+      "note": "",
+      "category": "Yara ve yanık",
+      "row": 1972,
+      "group": "E",
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "613090",
+      "name": "Eklem ponksiyonu ve ilaç verme",
+      "points": 15,
+      "note": "Artrosentez dahil",
+      "category": "Girişim ve drenaj",
+      "row": 2080,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "618020",
+      "name": "Buşon, lavaj ve manipülasyon",
+      "points": 5,
+      "note": "",
+      "category": "KBB",
+      "row": 2523,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "618070",
+      "name": "Dış kulak yolu, yabancı cisim çıkarılması",
+      "points": 10,
+      "note": "",
+      "category": "KBB",
+      "row": 2528,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5972,
+        "name": "Dış kulak yolu, yabancı cisim çıkarılması",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "619380",
+      "name": "Mesane ponksiyonu, suprapubik",
+      "points": 30,
+      "note": "",
+      "category": "Girişim ve drenaj",
+      "row": 2635,
+      "group": null,
+      "context": "",
+      "reminder": "İnvaziv girişim: uygun eğitim, yetki ve kurum uygulaması doğrulanmalı; rutin idrar sondasıyla karıştırılmamalı.",
+      "conditional": true,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "619550",
+      "name": "Sistostomi, perkütan",
+      "points": 158,
+      "note": "",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 2647,
+      "group": "D",
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": true,
+      "branch8": {
+        "row": 5973,
+        "name": "Sistostomi, perkütan",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "619920",
+      "name": "Normal doğum",
+      "points": 360,
+      "note": "",
+      "category": "Obstetrik ve jinekolojik girişim",
+      "row": 2682,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5974,
+        "name": "Normal doğum",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "619921",
+      "name": "Normal ilk doğum",
+      "points": 480,
+      "note": "",
+      "category": "Obstetrik ve jinekolojik girişim",
+      "row": 2683,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5975,
+        "name": "Normal ilk doğum",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "619926",
+      "name": "Normal doğum, çoğul gebelik",
+      "points": 384,
+      "note": "",
+      "category": "Obstetrik ve jinekolojik girişim",
+      "row": 2687,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5976,
+        "name": "Normal doğum, çoğul gebelik",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "619927",
+      "name": "Normal ilk doğum, çoğul gebelik",
+      "points": 504,
+      "note": "",
+      "category": "Obstetrik ve jinekolojik girişim",
+      "row": 2688,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5977,
+        "name": "Normal ilk doğum, çoğul gebelik",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "620170",
+      "name": "Vaginadan yabancı cisim çıkarılması",
+      "points": 24,
+      "note": "",
+      "category": "Obstetrik ve jinekolojik girişim",
+      "row": 2718,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5978,
+        "name": "Vaginadan yabancı cisim çıkarılması",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "621720",
+      "name": "Testis detorsiyonu, kapalı",
+      "points": 100,
+      "note": "",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 2866,
+      "group": null,
+      "context": "",
+      "reminder": "Yalnız gerçekten yapılan kapalı testis detorsiyonu; cerrahi değerlendirmeyi veya kesin tedaviyi geciktirme önerisi değildir.",
+      "conditional": false,
+      "branch8": {
+        "row": 5961,
+        "name": "Testis detorsiyonu, kapalı",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "700420",
+      "name": "Medikal Kardiyoversiyon",
+      "points": 10,
+      "note": "Yatan hastalarda puanlandırılır.",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 2917,
+      "group": null,
+      "context": "",
+      "reminder": "Kaynakta yalnız yatan hastalarda puanlandırılır. Acil müşahede kaydının yatan hasta statüsüyle aynı olduğu varsayılmamalı.",
+      "conditional": true,
+      "branch8": {
+        "row": 5979,
+        "name": "Medikal Kardiyoversiyon",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": "Kaynakta yalnız yatan hastalarda puanlandırılır. Acil müşahede kaydının yatan hasta statüsüyle aynı olduğu varsayılmamalı."
+    },
+    {
+      "code": "700430",
+      "name": "Elektriksel kardiyoversiyon",
+      "points": 50,
+      "note": "Anestezi hariç",
+      "category": "Resüsitasyon ve havayolu",
+      "row": 2918,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "700600",
+      "name": "Transtorasik ekokardiyografi",
+      "points": 20,
+      "note": "Standart Transtorasik Ekokardiyografi Raporunun  (İlgili branş derneklerinin düzenlediği) eksiksiz doldurulması ve Hastane bilgi yönetim sistemine veya  hasta dosyasına kaydedilmesi  halinde puanlandırılır.",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 2938,
+      "group": null,
+      "context": "",
+      "reminder": "Standart transtorasik EKO raporu eksiksiz doldurulup kaydedilmelidir. Odaklanmış kardiyak POCUS otomatik olarak bu kodu karşılamaz.",
+      "conditional": true,
+      "branch8": {
+        "row": 5980,
+        "name": "Transtorasik ekokardiyografi",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": "Standart transtorasik EKO raporu eksiksiz doldurulup kaydedilmelidir. Odaklanmış kardiyak POCUS otomatik olarak bu kodu karşılamaz."
+    },
+    {
+      "code": "700601",
+      "name": "Transtorasik ekokardiyografi, < 4 yaş çocuk",
+      "points": 50,
+      "note": "Sedasyon işlemi dahil",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 2939,
+      "group": null,
+      "context": "",
+      "reminder": "4 yaş altı çocuklara özgü kod; erişkin işlem listesinde kullanılmaz. Kaynakta sedasyon dahil.",
+      "conditional": true,
+      "branch8": {
+        "row": 5981,
+        "name": "Transtorasik ekokardiyografi, < 4 yaş çocuk",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Yenidoğan / çocuk",
+      "scopeWarning": "4 yaş altı çocuklara özgü kod; erişkin işlem listesinde kullanılmaz. Kaynakta sedasyon dahil."
+    },
+    {
+      "code": "700870",
+      "name": "Trombolitik tedavi uygulaması, venöz yoldan",
+      "points": 200,
+      "note": "",
+      "category": "Koşullu ileri uygulama",
+      "row": 2993,
+      "group": null,
+      "context": "",
+      "reminder": "Venöz yoldan trombolitik gerçekten uygulanmışsa; endikasyon, ajan, doz ve uygulayıcı belgelenmeli. Kurum/branş yetkisi ayrıca doğrulanmalı.",
+      "conditional": true,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "701190",
+      "name": "Plevral drenaj, pleurocan ile",
+      "points": 75,
+      "note": "530.420 ile birlikte puanlandırılmaz.",
+      "category": "Girişim ve drenaj",
+      "row": 3042,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": {
+        "row": 5982,
+        "name": "Plevral drenaj, pleurocan ile",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "704231",
+      "name": "Hemodiyaliz için kateter yerleştirilmesi",
+      "points": 100,
+      "note": "",
+      "category": "Ek listeyle eklenen girişim",
+      "row": 3384,
+      "group": null,
+      "context": "",
+      "reminder": "Diyaliz kateteri yerleştirilmesi; aynı girişimi ayrıca santral ven kateteri olarak mükerrer saymayın.",
+      "conditional": true,
+      "branch8": {
+        "row": 5983,
+        "name": "Hemodiyaliz için kateter yerleştirilmesi",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": "Diyaliz kateteri yerleştirilmesi; aynı girişimi ayrıca santral ven kateteri olarak mükerrer saymayın."
+    },
+    {
+      "code": "803290",
+      "name": "Ultrasonografi eşliğinde parasentez, tanısal",
+      "points": 75,
+      "note": "530.380 ile birlikte aynı gün içinde puanlandırılmaz. Günde bir kez puanlandırılır. Ultrasonografi puanı dahildir.",
+      "category": "Girişim ve drenaj",
+      "row": 4048,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "803291",
+      "name": "Ultrasonografi eşliğinde parasentez, terapötik",
+      "points": 100,
+      "note": "530.381 ile birlikte aynı gün içinde puanlandırılmaz. Ultrasonografi puanı dahildir.",
+      "category": "Girişim ve drenaj",
+      "row": 4049,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "803292",
+      "name": "Ultrasonografi eşliğinde torasentez, tanısal",
+      "points": 75,
+      "note": "530.420 ile birlikte aynı gün içinde puanlandırılmaz. Günde bir kez puanlandırılır. Ultrasonografi puanı dahildir.",
+      "category": "Girişim ve drenaj",
+      "row": 4050,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "803293",
+      "name": "Ultrasonografi eşliğinde torasentez, terapötik",
+      "points": 100,
+      "note": "530.421 ile birlikte aynı gün içinde puanlandırılmaz. Ultrasonografi puanı dahildir.",
+      "category": "Girişim ve drenaj",
+      "row": 4051,
+      "group": null,
+      "context": "",
+      "reminder": "İşlemin kendisi, endikasyonu, uygulayan hekim ve zamanı hasta dosyasında belgelenmeli.",
+      "conditional": false,
+      "branch8": null,
+      "population": "Genel",
+      "scopeWarning": ""
+    },
+    {
+      "code": "803602",
+      "name": "Ultrason, klinisyen",
+      "points": 15,
+      "note": "Radyoloji uzmanı haricindeki diğer hekimlerce muayenenin bir parçası olarak yapılan US/renkli Doppler US. Bulguların ayrıntılı olarak hastane bilgi yönetim sistemine kaydedilmesi durumunda puanlandırılır. Radyoloji uzmanı tarafından yapılan US/renkli Doppler US ile birlikte puanlandırılmaz. Aynı hastaya aynı branş için günde bir kez puanlandırılır.",
+      "category": "Yatak başı ultrason",
+      "row": 4088,
+      "group": null,
+      "context": "",
+      "reminder": "Klinisyen tarafından bizzat yapılan US/Renkli Doppler ve ayrıntılı bulgular kaydedilmeli; tetkik istemi yeterli değildir.",
+      "conditional": false,
+      "branch8": {
+        "row": 5984,
+        "name": "Ultrason, klinisyen",
+        "category": "Kategori 8 · Acil Tıp İşlemleri"
+      },
+      "population": "Genel",
+      "scopeWarning": ""
+    }
+  ],
+  "diagnoses": [
+    {
+      "code": "I46",
+      "name": "Kardiyak arrest",
+      "category": "Kardiyovasküler",
+      "aliases": "cpr kpr resüsitasyon resusitasyon arrest post cpr ros c",
+      "procedures": [
+        "550070",
+        "550030",
+        "550080",
+        "530085",
+        "530130",
+        "530490",
+        "530740",
+        "530750",
+        "530590",
+        "530330",
+        "530100"
+      ],
+      "note": "Post-CPR takipte aynı resüsitasyonu yeniden kodlamayın. İşlemler yalnız gerçekleştirildikleri zaman için değerlendirilir."
+    },
+    {
+      "code": "J96",
+      "name": "Solunum yetmezliği",
+      "category": "Solunum",
+      "aliases": "hipoksemi hiperkapni respiratuvar yetmezlik entübe entube",
+      "procedures": [
+        "550030",
+        "550080",
+        "530130",
+        "530490",
+        "530700",
+        "551251",
+        "530590",
+        "530330",
+        "530360",
+        "803602"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "J44.1",
+      "name": "KOAH akut alevlenme",
+      "category": "Solunum",
+      "aliases": "koah kronik obstruktif akciger atak",
+      "procedures": [
+        "530700",
+        "530350",
+        "530360",
+        "803602",
+        "530330",
+        "550030",
+        "530130",
+        "530490"
+      ],
+      "note": "NİMV, entübasyon ve invaziv ventilasyon her KOAH hastası için gerekli değildir; yalnız uygulanmışsa hatırlatma listesinden seçilir."
+    },
+    {
+      "code": "J45",
+      "name": "Astım",
+      "category": "Solunum",
+      "aliases": "astim bronkospazm",
+      "procedures": [
+        "530350",
+        "530360",
+        "530330",
+        "550030",
+        "530130",
+        "530490"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "J46",
+      "name": "Status astmatikus",
+      "category": "Solunum",
+      "aliases": "agir astim direncli astim",
+      "procedures": [
+        "530350",
+        "530360",
+        "550030",
+        "530130",
+        "530490",
+        "530590",
+        "530330"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "J18",
+      "name": "Pnömoni",
+      "category": "Solunum",
+      "aliases": "pnomoni pnömoni zaturre",
+      "procedures": [
+        "530360",
+        "530350",
+        "803602",
+        "530700",
+        "550030",
+        "530130",
+        "530330"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "J80",
+      "name": "ARDS",
+      "category": "Solunum",
+      "aliases": "akut respiratuvar distres",
+      "procedures": [
+        "550030",
+        "530130",
+        "530490",
+        "530590",
+        "530750",
+        "530360",
+        "803602"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "J81",
+      "name": "Akciğer ödemi",
+      "category": "Solunum",
+      "aliases": "pulmoner odem ape hipertansif akciger odemi",
+      "procedures": [
+        "530700",
+        "530360",
+        "803602",
+        "530330",
+        "530100",
+        "550030",
+        "530130"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "I50",
+      "name": "Kalp yetmezliği",
+      "category": "Kardiyovasküler",
+      "aliases": "kky sag kalp yetmezligi dekompanse",
+      "procedures": [
+        "803602",
+        "530700",
+        "530360",
+        "530100",
+        "530330",
+        "530310",
+        "700600"
+      ],
+      "note": "Kalp yetmezliği tek başına NİMV veya mesane sondası endikasyonu değildir."
+    },
+    {
+      "code": "R06.0",
+      "name": "Dispne",
+      "category": "Solunum",
+      "aliases": "nefes darligi dispne",
+      "procedures": [
+        "530360",
+        "803602",
+        "530100",
+        "530330",
+        "530350"
+      ],
+      "note": "Belirtiye yönelik ortak hatırlatma; kesin tanı ve klinik endikasyona göre işlem seçin."
+    },
+    {
+      "code": "J93",
+      "name": "Pnömotoraks",
+      "category": "Solunum",
+      "aliases": "pnomotoraks tansiyon pnömotoraks",
+      "procedures": [
+        "803602",
+        "608640",
+        "608880",
+        "608890",
+        "530360"
+      ],
+      "note": "Kateter ve tüp torakostomi alternatifleri otomatik birlikte seçilmez."
+    },
+    {
+      "code": "S27.0",
+      "name": "Travmatik pnömotoraks",
+      "category": "Travma",
+      "aliases": "travma pnomotoraks",
+      "procedures": [
+        "530001",
+        "608640",
+        "608880",
+        "608890",
+        "530360"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "J90",
+      "name": "Plevral efüzyon",
+      "category": "Solunum",
+      "aliases": "plevral efuzyon sivi torasentez",
+      "procedures": [
+        "803602",
+        "530420",
+        "530421",
+        "803292",
+        "803293",
+        "701190"
+      ],
+      "note": "Tanısal/terapötik ve US eşliğinde/eşliğinde olmayan seçenekler alternatif olabilir; kaynak kısıtlarına bakın."
+    },
+    {
+      "code": "I26",
+      "name": "Pulmoner emboli",
+      "category": "Kardiyovasküler",
+      "aliases": "pe pulmoner tromboemboli pte",
+      "procedures": [
+        "803602",
+        "530360",
+        "530330",
+        "530100",
+        "700870"
+      ],
+      "note": "Trombolitik yalnız uygun klinik endikasyonda gerçekten uygulandıysa değerlendirilir; her pulmoner emboli hastası için önerilmez."
+    },
+    {
+      "code": "R07.4",
+      "name": "Göğüs ağrısı, tanımlanmamış",
+      "category": "Kardiyovasküler",
+      "aliases": "gogus agrisi chest pain",
+      "procedures": [
+        "530100",
+        "530330",
+        "803602"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "I21",
+      "name": "Akut miyokart enfarktüsü",
+      "category": "Kardiyovasküler",
+      "aliases": "aks akut koroner sendrom stemi nstemi mi",
+      "procedures": [
+        "530100",
+        "530330",
+        "803602",
+        "700870"
+      ],
+      "note": "Venöz trombolitik yalnız uygun enfarktüs/klinik endikasyonda uygulanmışsa; tanı otomatik uygunluk sağlamaz."
+    },
+    {
+      "code": "I47.1",
+      "name": "Supraventriküler taşikardi",
+      "category": "Kardiyovasküler",
+      "aliases": "svt psvt tasikardi",
+      "procedures": [
+        "700430",
+        "530100",
+        "530330",
+        "700420"
+      ],
+      "note": "Elektriksel kardiyoversiyon gerçekten yapılmışsa. İlaçla dönüş elektriksel kardiyoversiyon olarak kodlanmaz. Medikal kardiyoversiyon kodunda kaynak yalnız yatan hasta koşulunu belirtir."
+    },
+    {
+      "code": "I47.2",
+      "name": "Ventriküler taşikardi",
+      "category": "Kardiyovasküler",
+      "aliases": "vt ventrikuler tasikardi",
+      "procedures": [
+        "700430",
+        "530100",
+        "530330",
+        "700420"
+      ],
+      "note": "Nabızsız VT için arrest/resüsitasyon başlığını kullanın. Defibrilasyonu otomatik olarak kardiyoversiyonla eşleştirmeyin. Medikal kardiyoversiyon kodunda kaynak yalnız yatan hasta koşulunu belirtir."
+    },
+    {
+      "code": "I48",
+      "name": "Atriyal fibrilasyon ve flutter",
+      "category": "Kardiyovasküler",
+      "aliases": "af atriyal fibrilasyon atrial flutter",
+      "procedures": [
+        "700430",
+        "530100",
+        "530330",
+        "700420"
+      ],
+      "note": "Yalnız gerçekleştirilen elektriksel kardiyoversiyon seçilir. Medikal kardiyoversiyon kodunda kaynak yalnız yatan hasta koşulunu belirtir."
+    },
+    {
+      "code": "R00.1",
+      "name": "Bradikardi",
+      "category": "Kardiyovasküler",
+      "aliases": "bradikardi yavas nabiz",
+      "procedures": [
+        "530002",
+        "530100",
+        "530330"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "I44.2",
+      "name": "Tam atriyoventriküler blok",
+      "category": "Kardiyovasküler",
+      "aliases": "tam av blok komplet blok",
+      "procedures": [
+        "530002",
+        "530100",
+        "530330"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "I31.3",
+      "name": "Perikardiyal efüzyon",
+      "category": "Kardiyovasküler",
+      "aliases": "perikardiyal efuzyon tamponad",
+      "procedures": [
+        "803602",
+        "604180",
+        "530330",
+        "700600"
+      ],
+      "note": "Perikardiyosentez yalnız endikasyon, yeterlik ve uygulama belgesi varsa seçilir; efüzyon varlığı tek başına yeterli değildir."
+    },
+    {
+      "code": "R57",
+      "name": "Şok",
+      "category": "Resüsitasyon",
+      "aliases": "sok septik hipovolemik kardiyojenik",
+      "procedures": [
+        "530740",
+        "530750",
+        "530590",
+        "530085",
+        "803602",
+        "530310",
+        "530330",
+        "550030",
+        "530130",
+        "700600"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "A41.9",
+      "name": "Sepsis, tanımlanmamış",
+      "category": "Resüsitasyon",
+      "aliases": "sepsis septik sok urosepsis",
+      "procedures": [
+        "530740",
+        "530750",
+        "530590",
+        "803602",
+        "530330",
+        "530310",
+        "550030",
+        "530130"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "T78.2",
+      "name": "Anafilaktik şok, tanımlanmamış",
+      "category": "Resüsitasyon",
+      "aliases": "anafilaksi anafilaktik alerji",
+      "procedures": [
+        "530330",
+        "530360",
+        "530350",
+        "550030",
+        "530130"
+      ],
+      "note": "Adrenalin uygulamasını otomatik olarak toksidromda spesifik antidot koduna eşleştirmeyin."
+    },
+    {
+      "code": "G40",
+      "name": "Epilepsi",
+      "category": "Nöroloji",
+      "aliases": "epilepsi nobet konvulziyon",
+      "procedures": [
+        "530330",
+        "530360",
+        "550030",
+        "530130"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "G41",
+      "name": "Status epileptikus",
+      "category": "Nöroloji",
+      "aliases": "status epileptikus direncli nobet",
+      "procedures": [
+        "550030",
+        "530130",
+        "530490",
+        "530330",
+        "530360"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "R56.8",
+      "name": "Diğer ve tanımlanmamış konvülsiyonlar",
+      "category": "Nöroloji",
+      "aliases": "ilk nobet konvulsiyon",
+      "procedures": [
+        "530330",
+        "530360",
+        "550030",
+        "530130"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "R40",
+      "name": "Somnolans, stupor ve koma",
+      "category": "Nöroloji",
+      "aliases": "bilinc bozuklugu koma gks bilinç",
+      "procedures": [
+        "550030",
+        "530130",
+        "530330",
+        "530360"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "G03.9",
+      "name": "Menenjit, tanımlanmamış",
+      "category": "Nöroloji",
+      "aliases": "menenjit ense sertligi lp",
+      "procedures": [
+        "530300",
+        "530330"
+      ],
+      "note": "Lomber ponksiyon ancak gerçekten yapılmışsa ve işlem kaydı varsa seçilir."
+    },
+    {
+      "code": "G04.9",
+      "name": "Ensefalit, miyelit ve ensefalomiyelit, tanımlanmamış",
+      "category": "Nöroloji",
+      "aliases": "ensefalit meningoensefalit",
+      "procedures": [
+        "530300",
+        "530330",
+        "550030",
+        "530130"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "R51",
+      "name": "Baş ağrısı",
+      "category": "Nöroloji",
+      "aliases": "bas agrisi thunderclap",
+      "procedures": [
+        "530300"
+      ],
+      "note": "Her baş ağrısında LP yapılmaz. Yalnız klinik endikasyonla gerçekleştirilen LP hatırlatılır."
+    },
+    {
+      "code": "I63",
+      "name": "Serebral enfarktüs",
+      "category": "Nöroloji",
+      "aliases": "inme svo iskemik stroke",
+      "procedures": [
+        "530330",
+        "530100",
+        "550030",
+        "530130",
+        "700870"
+      ],
+      "note": "Venöz trombolitik yalnız uygunluk değerlendirmesi sonrası uygulanmışsa; tüm inme hastaları için geçerli değildir."
+    },
+    {
+      "code": "T39.1",
+      "name": "4-aminofenol türevleri ile zehirlenme",
+      "category": "Toksikoloji",
+      "aliases": "parasetamol asetaminofen nac intoksikasyon",
+      "procedures": [
+        "530003",
+        "530340",
+        "530320",
+        "530330"
+      ],
+      "note": "NAC gerçekten uygulanmışsa antidot hatırlatılır. Mide yıkama rutin değildir; NG ile birlikte puanlandırılmaz."
+    },
+    {
+      "code": "T40.2",
+      "name": "Diğer opioidlerle zehirlenme",
+      "category": "Toksikoloji",
+      "aliases": "opioid morfin nalokson",
+      "procedures": [
+        "530003",
+        "530330",
+        "550030",
+        "530130",
+        "530360"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "T42.4",
+      "name": "Benzodiazepinlerle zehirlenme",
+      "category": "Toksikoloji",
+      "aliases": "benzodiazepin diazepam flumazenil",
+      "procedures": [
+        "530003",
+        "530330",
+        "550030",
+        "530130"
+      ],
+      "note": "Flumazenil rutin önerilmez; yalnız uygun endikasyonda gerçekten uygulanmış antidot için hatırlatma."
+    },
+    {
+      "code": "T60.0",
+      "name": "Organofosfat ve karbamat insektisitlerle zehirlenme",
+      "category": "Toksikoloji",
+      "aliases": "organofosfat atropin pralidoksim tarim ilaci",
+      "procedures": [
+        "530003",
+        "530330",
+        "550030",
+        "530130",
+        "551251"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "T58",
+      "name": "Karbonmonoksidin toksik etkisi",
+      "category": "Toksikoloji",
+      "aliases": "co karbonmonoksit soba zehirlenmesi",
+      "procedures": [
+        "530360",
+        "530330",
+        "550030",
+        "530130"
+      ],
+      "note": "Oksijen uygulamasını spesifik antidot koduyla eşleştirmeyin. Hiperbarik tedavi bu acil tıp uygulama kataloğuna alınmamıştır."
+    },
+    {
+      "code": "T63.0",
+      "name": "Yılan zehrinin toksik etkisi",
+      "category": "Toksikoloji",
+      "aliases": "yilan antivenom",
+      "procedures": [
+        "530003",
+        "530330",
+        "530580"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "T63.2",
+      "name": "Akrep zehrinin toksik etkisi",
+      "category": "Toksikoloji",
+      "aliases": "akrep antivenom",
+      "procedures": [
+        "530003",
+        "530330"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "T50.9",
+      "name": "Diğer ve tanımlanmamış ilaçlarla zehirlenme",
+      "category": "Toksikoloji",
+      "aliases": "ilac zehirlenmesi intoksikasyon overdose",
+      "procedures": [
+        "530003",
+        "530320",
+        "530340",
+        "530330",
+        "550030",
+        "530130"
+      ],
+      "note": "Antidot yalnız özgül antidot uygulanmışsa; aktif kömür 530.003 kapsamında değildir. Mide yıkama rutin öneri değildir."
+    },
+    {
+      "code": "T54",
+      "name": "Korozif maddelerin toksik etkisi",
+      "category": "Toksikoloji",
+      "aliases": "korozif kostik asit alkali",
+      "procedures": [
+        "530330",
+        "550030",
+        "530130"
+      ],
+      "note": "Kör NG yerleştirme ve mide yıkama bu tanıya önerilmez; bu eşleştirmeye alınmamıştır."
+    },
+    {
+      "code": "R10",
+      "name": "Karın ve pelvis ağrısı",
+      "category": "Gastrointestinal",
+      "aliases": "karin agrisi abdominal agri",
+      "procedures": [
+        "803602"
+      ],
+      "note": "US istemi değil, hekimin bizzat yaptığı ve ayrıntılı raporladığı klinisyen US kastedilir."
+    },
+    {
+      "code": "K56",
+      "name": "Paralitik ileus ve hernisiz bağırsak tıkanıklığı",
+      "category": "Gastrointestinal",
+      "aliases": "ileus barsak tikanikligi obstruksiyon",
+      "procedures": [
+        "530340",
+        "803602"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "K59.0",
+      "name": "Kabızlık",
+      "category": "Gastrointestinal",
+      "aliases": "konstipasyon kabizlik fekalom",
+      "procedures": [
+        "530260",
+        "610370"
+      ],
+      "note": "Rektal tuşe ile dışkı taşı gerçekten çıkarıldıysa 610.370 değerlendirilir; yalnız tuşe yeterli değildir."
+    },
+    {
+      "code": "K92.0",
+      "name": "Hematemez",
+      "category": "Gastrointestinal",
+      "aliases": "hematemez kanli kusma gis kanama",
+      "procedures": [
+        "530330",
+        "530180",
+        "550030",
+        "530130"
+      ],
+      "note": "NG sonda rutin GİS kanama işlemi olarak eşleştirilmemiştir."
+    },
+    {
+      "code": "K92.1",
+      "name": "Melena",
+      "category": "Gastrointestinal",
+      "aliases": "melena ust gis kanama",
+      "procedures": [
+        "530330",
+        "530180"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "R18",
+      "name": "Asit",
+      "category": "Gastrointestinal",
+      "aliases": "asit parasentez assit",
+      "procedures": [
+        "803602",
+        "530380",
+        "530381",
+        "803290",
+        "803291"
+      ],
+      "note": "Tanısal/terapötik ve US eşliğinde/eşliğinde olmayan kodlar alternatif olabilir; birlikte puanlandırma koşullarını kontrol edin."
+    },
+    {
+      "code": "N23",
+      "name": "Tanımlanmamış renal kolik",
+      "category": "Üroloji",
+      "aliases": "renal kolik bobrek tasi yan agrisi",
+      "procedures": [
+        "803602"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "R33",
+      "name": "İdrar retansiyonu",
+      "category": "Üroloji",
+      "aliases": "idrar yapamama glob vezikal retansiyon",
+      "procedures": [
+        "530310",
+        "803602",
+        "619380",
+        "619550"
+      ],
+      "note": "Suprapubik ponksiyon rutin üretral sondadan farklıdır; yalnız uygun yetki ve belgeli uygulama varsa."
+    },
+    {
+      "code": "N39.0",
+      "name": "İdrar yolu enfeksiyonu, yeri belirtilmemiş",
+      "category": "Üroloji",
+      "aliases": "iye idrar yolu enfeksiyonu",
+      "procedures": [
+        "803602"
+      ],
+      "note": "Mesane sondası yalnız enfeksiyon tanısı nedeniyle önerilmez; retansiyon veya başka endikasyon ayrıca değerlendirilir."
+    },
+    {
+      "code": "E10.1",
+      "name": "Tip 1 diyabet, ketoasidoz ile",
+      "category": "Metabolik",
+      "aliases": "dka diyabetik ketoasidoz tip 1",
+      "procedures": [
+        "530330",
+        "530100",
+        "530740",
+        "530750",
+        "530590"
+      ],
+      "note": "Santral/arteriyel girişimler yalnız gerekli olup gerçekten yapıldıysa seçilir."
+    },
+    {
+      "code": "E11.1",
+      "name": "Tip 2 diyabet, ketoasidoz ile",
+      "category": "Metabolik",
+      "aliases": "dka diyabetik ketoasidoz tip 2",
+      "procedures": [
+        "530330",
+        "530100",
+        "530740",
+        "530750",
+        "530590"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "E87.5",
+      "name": "Hiperkalemi",
+      "category": "Metabolik",
+      "aliases": "hiperkalemi potasyum yuksek",
+      "procedures": [
+        "530100",
+        "530330"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "E16.2",
+      "name": "Hipoglisemi, tanımlanmamış",
+      "category": "Metabolik",
+      "aliases": "hipoglisemi kan sekeri dusuk",
+      "procedures": [
+        "530150",
+        "530330"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "T07",
+      "name": "Tanımlanmamış çoklu yaralanmalar",
+      "category": "Travma",
+      "aliases": "multitravma politravma trafik kazasi coklu travma fast",
+      "procedures": [
+        "530001",
+        "550030",
+        "530130",
+        "530740",
+        "530750",
+        "530590",
+        "530190",
+        "530200",
+        "530210",
+        "530580"
+      ],
+      "note": "Sütür seçenekleri aynı kesi için alternatiftir. FAST yalnız çoklu travma ve raporlu uygulamada."
+    },
+    {
+      "code": "S01",
+      "name": "Başın açık yarası",
+      "category": "Yara ve yanık",
+      "aliases": "kafa skalp yuz kesi",
+      "procedures": [
+        "530190",
+        "530200",
+        "530210",
+        "530560",
+        "530580",
+        "530290"
+      ],
+      "note": "Sütür boyut seçenekleri alternatiftir. Boyut, sayı, yer ve yapılan işlem kaydedilmeli. Debridmana pansuman dahildir."
+    },
+    {
+      "code": "S41",
+      "name": "Omuz ve üst kolun açık yarası",
+      "category": "Yara ve yanık",
+      "aliases": "omuz kol kesi",
+      "procedures": [
+        "530190",
+        "530200",
+        "530210",
+        "530560",
+        "530580",
+        "530290"
+      ],
+      "note": "Sütür boyut seçenekleri alternatiftir. Boyut, sayı, yer ve yapılan işlem kaydedilmeli. Debridmana pansuman dahildir."
+    },
+    {
+      "code": "S51",
+      "name": "Ön kolun açık yarası",
+      "category": "Yara ve yanık",
+      "aliases": "onkol kesi",
+      "procedures": [
+        "530190",
+        "530200",
+        "530210",
+        "530560",
+        "530580",
+        "530290"
+      ],
+      "note": "Sütür boyut seçenekleri alternatiftir. Boyut, sayı, yer ve yapılan işlem kaydedilmeli. Debridmana pansuman dahildir."
+    },
+    {
+      "code": "S61",
+      "name": "El bileği ve elin açık yarası",
+      "category": "Yara ve yanık",
+      "aliases": "el parmak kesi laserasyon",
+      "procedures": [
+        "530190",
+        "530200",
+        "530210",
+        "530560",
+        "530580",
+        "530290"
+      ],
+      "note": "Sütür boyut seçenekleri alternatiftir. Boyut, sayı, yer ve yapılan işlem kaydedilmeli. Debridmana pansuman dahildir."
+    },
+    {
+      "code": "S71",
+      "name": "Kalça ve uyluğun açık yarası",
+      "category": "Yara ve yanık",
+      "aliases": "uyluk kesi",
+      "procedures": [
+        "530190",
+        "530200",
+        "530210",
+        "530560",
+        "530580",
+        "530290"
+      ],
+      "note": "Sütür boyut seçenekleri alternatiftir. Boyut, sayı, yer ve yapılan işlem kaydedilmeli. Debridmana pansuman dahildir."
+    },
+    {
+      "code": "S81",
+      "name": "Bacağın açık yarası",
+      "category": "Yara ve yanık",
+      "aliases": "bacak kesi",
+      "procedures": [
+        "530190",
+        "530200",
+        "530210",
+        "530560",
+        "530580",
+        "530290"
+      ],
+      "note": "Sütür boyut seçenekleri alternatiftir. Boyut, sayı, yer ve yapılan işlem kaydedilmeli. Debridmana pansuman dahildir."
+    },
+    {
+      "code": "S91",
+      "name": "Ayak bileği ve ayağın açık yarası",
+      "category": "Yara ve yanık",
+      "aliases": "ayak kesi",
+      "procedures": [
+        "530190",
+        "530200",
+        "530210",
+        "530560",
+        "530580",
+        "530290"
+      ],
+      "note": "Sütür boyut seçenekleri alternatiftir. Boyut, sayı, yer ve yapılan işlem kaydedilmeli. Debridmana pansuman dahildir."
+    },
+    {
+      "code": "L02",
+      "name": "Deri apsesi, fronkül ve karbonkül",
+      "category": "Yara ve yanık",
+      "aliases": "apse abse drenaj",
+      "procedures": [
+        "530030",
+        "530580"
+      ],
+      "note": "Drenaj gerçekten yapıldıysa; yalnız antibiyotik tedavisi drenaj kodunu karşılamaz."
+    },
+    {
+      "code": "L89",
+      "name": "Dekübit ülseri",
+      "category": "Yara ve yanık",
+      "aliases": "bası yarasi dekubit basinc ulseri",
+      "procedures": [
+        "530561",
+        "530581"
+      ],
+      "note": "Debridmana pansuman dahildir; bu iki kod kaynakta birlikte puanlandırılmaz."
+    },
+    {
+      "code": "E11.5",
+      "name": "Tip 2 diyabet, periferik dolaşım komplikasyonları ile",
+      "category": "Yara ve yanık",
+      "aliases": "diyabetik ayak iskemik ayak",
+      "procedures": [
+        "530560",
+        "530580"
+      ],
+      "note": "Diyabetik ayak için tek bir evrensel ICD kodu yoktur. Enfeksiyon, ülser ve iskemiye göre kesin kod HBYS üzerinden seçilmelidir."
+    },
+    {
+      "code": "T20",
+      "name": "Baş ve boyun yanıkları ve korozyonları",
+      "category": "Yara ve yanık",
+      "aliases": "yanik termal haslanma",
+      "procedures": [
+        "530510",
+        "530520",
+        "530500",
+        "530530",
+        "530531",
+        "530532",
+        "600100"
+      ],
+      "note": "Yüzey alanı ve gerçekten yapılan debridman/pansuman tipine göre alternatif kod seçin. Debridmana pansuman dahildir; otomatik toplamayın. Eskarotomi yalnız ayrı endikasyonla gerçekten yapıldıysa değerlendirilir."
+    },
+    {
+      "code": "T21",
+      "name": "Gövde yanıkları ve korozyonları",
+      "category": "Yara ve yanık",
+      "aliases": "yanik termal haslanma",
+      "procedures": [
+        "530510",
+        "530520",
+        "530500",
+        "530530",
+        "530531",
+        "530532",
+        "600100"
+      ],
+      "note": "Yüzey alanı ve gerçekten yapılan debridman/pansuman tipine göre alternatif kod seçin. Debridmana pansuman dahildir; otomatik toplamayın. Eskarotomi yalnız ayrı endikasyonla gerçekten yapıldıysa değerlendirilir."
+    },
+    {
+      "code": "T22",
+      "name": "Omuz ve üst ekstremite yanıkları ve korozyonları (el bileği/el hariç)",
+      "category": "Yara ve yanık",
+      "aliases": "yanik termal haslanma",
+      "procedures": [
+        "530510",
+        "530520",
+        "530500",
+        "530530",
+        "530531",
+        "530532",
+        "600100"
+      ],
+      "note": "Yüzey alanı ve gerçekten yapılan debridman/pansuman tipine göre alternatif kod seçin. Debridmana pansuman dahildir; otomatik toplamayın. Eskarotomi yalnız ayrı endikasyonla gerçekten yapıldıysa değerlendirilir."
+    },
+    {
+      "code": "T23",
+      "name": "El bileği ve el yanıkları ve korozyonları",
+      "category": "Yara ve yanık",
+      "aliases": "yanik termal haslanma",
+      "procedures": [
+        "530510",
+        "530520",
+        "530500",
+        "530530",
+        "530531",
+        "530532",
+        "600100"
+      ],
+      "note": "Yüzey alanı ve gerçekten yapılan debridman/pansuman tipine göre alternatif kod seçin. Debridmana pansuman dahildir; otomatik toplamayın. Eskarotomi yalnız ayrı endikasyonla gerçekten yapıldıysa değerlendirilir."
+    },
+    {
+      "code": "T24",
+      "name": "Kalça ve alt ekstremite yanıkları ve korozyonları (ayak bileği/ayak hariç)",
+      "category": "Yara ve yanık",
+      "aliases": "yanik termal haslanma",
+      "procedures": [
+        "530510",
+        "530520",
+        "530500",
+        "530530",
+        "530531",
+        "530532",
+        "600100"
+      ],
+      "note": "Yüzey alanı ve gerçekten yapılan debridman/pansuman tipine göre alternatif kod seçin. Debridmana pansuman dahildir; otomatik toplamayın. Eskarotomi yalnız ayrı endikasyonla gerçekten yapıldıysa değerlendirilir."
+    },
+    {
+      "code": "T25",
+      "name": "Ayak bileği ve ayak yanıkları ve korozyonları",
+      "category": "Yara ve yanık",
+      "aliases": "yanik termal haslanma",
+      "procedures": [
+        "530510",
+        "530520",
+        "530500",
+        "530530",
+        "530531",
+        "530532",
+        "600100"
+      ],
+      "note": "Yüzey alanı ve gerçekten yapılan debridman/pansuman tipine göre alternatif kod seçin. Debridmana pansuman dahildir; otomatik toplamayın. Eskarotomi yalnız ayrı endikasyonla gerçekten yapıldıysa değerlendirilir."
+    },
+    {
+      "code": "T30",
+      "name": "Vücut bölgesi belirtilmemiş yanık ve korozyon",
+      "category": "Yara ve yanık",
+      "aliases": "yanik termal haslanma",
+      "procedures": [
+        "530510",
+        "530520",
+        "530500",
+        "530530",
+        "530531",
+        "530532",
+        "600100"
+      ],
+      "note": "Yüzey alanı ve gerçekten yapılan debridman/pansuman tipine göre alternatif kod seçin. Debridmana pansuman dahildir; otomatik toplamayın. Eskarotomi yalnız ayrı endikasyonla gerçekten yapıldıysa değerlendirilir."
+    },
+    {
+      "code": "S52",
+      "name": "Ön kol kırığı",
+      "category": "Ortopedi",
+      "aliases": "radius ulna distal radius colles onkol kirik",
+      "procedures": [
+        "610680",
+        "610700",
+        "610670",
+        "610690",
+        "610910"
+      ],
+      "note": "Anatomi ve yapılan immobilizasyona göre alternatif seçin. Kapalı redüksiyona alçı/sargı dahildir; kaynak kuralları ayrıca kontrol edilir."
+    },
+    {
+      "code": "S62",
+      "name": "El bileği ve el düzeyinde kırık",
+      "category": "Ortopedi",
+      "aliases": "metakarp falanks skafoid el kirik",
+      "procedures": [
+        "610680",
+        "610750",
+        "610890",
+        "610900"
+      ],
+      "note": "Karpal kemikler kaynak sınıflamasında orta; metakarp/parmak küçük kemiktir. İki redüksiyon kodu aynı kırık için alternatif olabilir."
+    },
+    {
+      "code": "S42",
+      "name": "Omuz ve üst kol kırığı",
+      "category": "Ortopedi",
+      "aliases": "humerus klavikula omuz kirik",
+      "procedures": [
+        "610800",
+        "610810",
+        "610790",
+        "610910",
+        "610900"
+      ],
+      "note": "Klavikula orta, humerus büyük kemik sınıflamasında değerlendirilir. Bandaj/atel alternatifleri birlikte otomatik seçilmez."
+    },
+    {
+      "code": "S82",
+      "name": "Alt bacak kırığı, ayak bileği dahil",
+      "category": "Ortopedi",
+      "aliases": "tibia fibula malleol bacak kirik",
+      "procedures": [
+        "610720",
+        "610740",
+        "610710",
+        "610730",
+        "610900",
+        "610910"
+      ],
+      "note": "Tibia büyük, fibula orta kemik; uygun kod kırılan kemik ve gerçekleştirilen işleme bağlıdır."
+    },
+    {
+      "code": "S92",
+      "name": "Ayak kırığı, ayak bileği hariç",
+      "category": "Ortopedi",
+      "aliases": "metatars ayak falanks kalkaneus kirik",
+      "procedures": [
+        "610720",
+        "610750",
+        "610890",
+        "610900"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "S43",
+      "name": "Omuz kuşağı eklem ve bağlarının çıkık, burkulma ve gerilmesi",
+      "category": "Ortopedi",
+      "aliases": "omuz cikigi akromioklavikuler",
+      "procedures": [
+        "610880",
+        "610870",
+        "610800"
+      ],
+      "note": "Omuz büyük eklem; akromioklaviküler eklem orta eklemdir. Yalnız burkulmada redüksiyon kodlanmaz."
+    },
+    {
+      "code": "S53",
+      "name": "Dirsek eklem ve bağlarının çıkık, burkulma ve gerilmesi",
+      "category": "Ortopedi",
+      "aliases": "dirsek cikigi bakici dirsegi",
+      "procedures": [
+        "610880",
+        "610870",
+        "610700"
+      ],
+      "note": "Bakıcı dirseği 610.870 içinde özellikle belirtilir; diğer dirsek çıkıkları büyük eklem sınıfında. Burkulma redüksiyon değildir."
+    },
+    {
+      "code": "S63",
+      "name": "El bileği ve el eklem/bağlarının çıkık, burkulma ve gerilmesi",
+      "category": "Ortopedi",
+      "aliases": "parmak cikigi el bilegi cikik",
+      "procedures": [
+        "610860",
+        "610870",
+        "610880",
+        "610680",
+        "610750"
+      ],
+      "note": "Eklem sınıfını anatomik bölgeye göre seçin; tüm seçenekler aynı hasta için birlikte uygun değildir."
+    },
+    {
+      "code": "S93",
+      "name": "Ayak bileği ve ayak eklem/bağlarının çıkık, burkulma ve gerilmesi",
+      "category": "Ortopedi",
+      "aliases": "ayak bilegi burkulma ayak cikik",
+      "procedures": [
+        "610720",
+        "610750",
+        "610860",
+        "610870",
+        "610880"
+      ],
+      "note": "Burkulma tek başına redüksiyon kodunu karşılamaz. Yalnız gerçekten yapılan işlem seçilir."
+    },
+    {
+      "code": "M25.4",
+      "name": "Eklem efüzyonu",
+      "category": "Ortopedi",
+      "aliases": "diz efüzyon artrosentez eklem sivisi",
+      "procedures": [
+        "613090"
+      ],
+      "note": "Yalnız yapılan eklem ponksiyonu/artrosentez için; tek başına muayene veya US bu işlem değildir."
+    },
+    {
+      "code": "S03.0",
+      "name": "Çene çıkığı",
+      "category": "Ortopedi",
+      "aliases": "mandibula cikigi tme cene",
+      "procedures": [
+        "601250"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "R04.0",
+      "name": "Epistaksis",
+      "category": "KBB",
+      "aliases": "burun kanamasi epistaksis",
+      "procedures": [
+        "601390",
+        "601400",
+        "601380"
+      ],
+      "note": "Ön ve arka tampon kaynakta birlikte puanlandırılmaz. Tampon çıkarma yalnız gerçekten yapıldıysa seçilir."
+    },
+    {
+      "code": "T16",
+      "name": "Kulakta yabancı cisim",
+      "category": "KBB",
+      "aliases": "kulak yabanci cisim",
+      "procedures": [
+        "618070"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "T17.1",
+      "name": "Burun deliğinde yabancı cisim",
+      "category": "KBB",
+      "aliases": "burun yabanci cisim",
+      "procedures": [
+        "601410"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "H61.2",
+      "name": "Sıkışmış serumen",
+      "category": "KBB",
+      "aliases": "buson serumen kulak kiri",
+      "procedures": [
+        "618020"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "L60.0",
+      "name": "Tırnak batması",
+      "category": "Yara ve yanık",
+      "aliases": "tirnak batmasi onikokriptoz",
+      "procedures": [
+        "612060"
+      ],
+      "note": "Tırnak çekilmesi gerçekten yapıldıysa seçilir; yalnız muayene veya pansuman bu kodu karşılamaz."
+    },
+    {
+      "code": "Z48.0",
+      "name": "Cerrahi pansuman ve sütürlere bakım",
+      "category": "Yara ve yanık",
+      "aliases": "sutur alma dikis alma pansuman kontrol",
+      "procedures": [
+        "530410",
+        "530580"
+      ],
+      "note": "Tanı tek başına işlem gerektirmez. Yalnız endikasyonu bulunan, bizzat yapılan ve belgelenen işlemi seçin."
+    },
+    {
+      "code": "S22.3",
+      "name": "Kaburga kırığı",
+      "category": "Travma",
+      "aliases": "kot frakturu kaburga kirigi",
+      "procedures": [
+        "603290",
+        "803602"
+      ],
+      "note": "Kapalı kot kırığı tedavisi gerçekten yapıldıysa; yalnız kırığı görmek veya tetkik istemek bu kodun karşılığı değildir."
+    },
+    {
+      "code": "N44",
+      "name": "Testisin torsiyonu",
+      "category": "Üroloji",
+      "aliases": "testis torsiyonu detorsiyon akut skrotum",
+      "procedures": [
+        "621720",
+        "803602"
+      ],
+      "note": "Kapalı detorsiyon yalnız yapıldıysa kodlanır; acil cerrahi değerlendirme ve kesin tedavi geciktirilmez."
+    },
+    {
+      "code": "I85.0",
+      "name": "Kanama ile özofagus varisleri",
+      "category": "Gastrointestinal",
+      "aliases": "ozofagus varis kanamasi sengstaken blakemore balon",
+      "procedures": [
+        "609500",
+        "550030",
+        "530130",
+        "530180",
+        "530330"
+      ],
+      "note": "Özofageal tüp/balon yalnız gerçekten uygulanmışsa; tüm varis kanamalarına rutin uygulama önerilmez."
+    },
+    {
+      "code": "T19.2",
+      "name": "Vulva ve vajinada yabancı cisim",
+      "category": "Obstetrik / jinekolojik",
+      "aliases": "vajina vagina yabanci cisim",
+      "procedures": [
+        "620170"
+      ],
+      "note": "Yalnız bizzat gerçekleştirilen ve belgelenen çıkarma işlemi."
+    },
+    {
+      "code": "O80",
+      "name": "Tek spontan doğum",
+      "category": "Obstetrik / jinekolojik",
+      "aliases": "normal dogum ilk dogum acilde dogum",
+      "procedures": [
+        "619920",
+        "619921"
+      ],
+      "note": "Normal/normal ilk doğum kodları aynı doğum için alternatiftir. Yapılan doğum, parite ve kayıt koşulları doğrulanır."
+    },
+    {
+      "code": "O84",
+      "name": "Çoğul doğum",
+      "category": "Obstetrik / jinekolojik",
+      "aliases": "cogul dogum ikiz dogum",
+      "procedures": [
+        "619926",
+        "619927"
+      ],
+      "note": "Normal çoğul/normal ilk çoğul kodları aynı doğum için alternatiftir; sezaryen veya farklı doğum şekline otomatik eşlenmez."
+    },
+    {
+      "code": "P21",
+      "name": "Doğum asfiksisi",
+      "category": "Yenidoğan",
+      "aliases": "yenidogan resusitasyon neonatal canlandirma",
+      "procedures": [
+        "530984",
+        "530800",
+        "530130",
+        "530820",
+        "530840"
+      ],
+      "note": "Yenidoğana özgü işlemler. Rutin kurulama, ısıtma, uyarı ve oksijen tek başına 530.984 kapsamı değildir."
+    },
+    {
+      "code": "P28.5",
+      "name": "Yenidoğanın solunum yetmezliği",
+      "category": "Yenidoğan",
+      "aliases": "yenidogan solunum yetmezligi neonatal",
+      "procedures": [
+        "530800",
+        "530130",
+        "530490",
+        "530820",
+        "530840",
+        "530930"
+      ],
+      "note": "Yenidoğana özgü işlemler; transport kuvöz nakli yalnız gerçekten yapıldıysa seçilir."
+    }
+  ]
+}
